@@ -1,0 +1,12 @@
+<% content_for :title, "Editing book genre" %>
+
+<h1>Editing book genre</h1>
+
+<%= render "form", book_genre: @book_genre %>
+
+<br>
+
+<div>
+  <%= link_to "Show this book genre", @book_genre %> |
+  <%= link_to "Back to book genres", book_genres_path %>
+</div>
